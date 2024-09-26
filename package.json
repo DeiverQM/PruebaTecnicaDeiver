@@ -1,0 +1,25 @@
+{
+  "name": "pruebatecnica",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": "Pruebatecnica",
+  "main": "busquedaDatacrm.js",
+  "scripts": {
+    "selenium-test": "node busquedaDatacrm.js",
+    "start": "node busquedaDatacrm.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datacrm/pruebaqa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/datacrm/pruebaqa/issues"
+  },
+  "homepage": "https://github.com/datacrm/pruebaqa#readme",
+  "dependencies": {
+    "chromedriver": "^129.0.0",
+    "selenium-webdriver": "^4.25.0"
+  }
+}
